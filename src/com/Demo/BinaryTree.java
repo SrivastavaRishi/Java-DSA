@@ -18,6 +18,11 @@ public class BinaryTree {
         root = null;
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     // Method to insert a new node with given key
     public void insert(int key) {
         root = insertRec(root, key);

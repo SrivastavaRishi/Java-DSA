@@ -31,6 +31,9 @@ public class ArrayList1 {
 
         System.out.println(matrix);
 
+        String s = "";
+        s.charAt(0);
+
 
         for (ArrayList<Integer> into : matrix) {
             System.out.println(into.toString());

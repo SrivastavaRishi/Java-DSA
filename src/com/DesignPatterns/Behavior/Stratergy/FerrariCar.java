@@ -1,7 +1,7 @@
-package com.DesignPatterns.Structural.Stratergy;
+package com.DesignPatterns.Behavior.Stratergy;
 
 
-import com.DesignPatterns.Structural.Stratergy.DriverStratergy.SportsDriveStratergy;
+import com.DesignPatterns.Behavior.Stratergy.DriverStratergy.SportsDriveStratergy;
 
 public class FerrariCar extends Vehicle{
     String model;

@@ -1,6 +1,6 @@
-package com.DesignPatterns.Structural.Stratergy;
+package com.DesignPatterns.Behavior.Stratergy;
 
-import com.DesignPatterns.Structural.Stratergy.DriverStratergy.NormalDriveStratergy;
+import com.DesignPatterns.Behavior.Stratergy.DriverStratergy.NormalDriveStratergy;
 
 public class Maruti extends Vehicle{
     String model;

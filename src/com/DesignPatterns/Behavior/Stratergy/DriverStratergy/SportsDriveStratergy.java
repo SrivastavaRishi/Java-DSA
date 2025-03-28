@@ -1,4 +1,4 @@
-package com.DesignPatterns.Structural.Stratergy.DriverStratergy;
+package com.DesignPatterns.Behavior.Stratergy.DriverStratergy;
 
 public class SportsDriveStratergy implements DriveStratergy {
     public void drive() {

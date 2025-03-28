@@ -1,4 +1,4 @@
-package com.DesignPatterns.Structural.Stratergy;
+package com.DesignPatterns.Behavior.Stratergy;
 
 public class Main {
     public static void main(String[] args) {

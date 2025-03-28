@@ -1,4 +1,4 @@
-package com.DesignPatterns.Structural.Observer;
+package com.DesignPatterns.Behavior.Observer;
 
 public interface StocksObservable {
     public void add(NotificationAlertObserver observer);

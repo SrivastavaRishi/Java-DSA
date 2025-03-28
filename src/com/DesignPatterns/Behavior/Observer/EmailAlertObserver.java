@@ -1,4 +1,4 @@
-package com.DesignPatterns.Structural.Observer;
+package com.DesignPatterns.Behavior.Observer;
 
 public class EmailAlertObserver implements NotificationAlertObserver{
     String emailId;

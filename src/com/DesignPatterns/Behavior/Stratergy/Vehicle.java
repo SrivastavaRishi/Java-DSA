@@ -1,7 +1,7 @@
-package com.DesignPatterns.Structural.Stratergy;
+package com.DesignPatterns.Behavior.Stratergy;
 
 
-import com.DesignPatterns.Structural.Stratergy.DriverStratergy.DriveStratergy;
+import com.DesignPatterns.Behavior.Stratergy.DriverStratergy.DriveStratergy;
 
 public class Vehicle {
     DriveStratergy driveStratergy;

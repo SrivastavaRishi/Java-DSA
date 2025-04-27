@@ -1,4 +1,4 @@
-package com.DesignPatterns.Iterator;
+package com.DesignPatterns.Behavior.Iterator;
 
 public interface MyIterator {
     boolean hasNext();

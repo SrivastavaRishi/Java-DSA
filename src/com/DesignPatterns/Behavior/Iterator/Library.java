@@ -1,6 +1,5 @@
-package com.DesignPatterns.Iterator;
+package com.DesignPatterns.Behavior.Iterator;
 
-import java.util.Iterator;
 import java.util.List;
 
 public class Library {

@@ -24,7 +24,12 @@ public class ParkingTicket {
 
     @Override
     public String toString(){
-        return String.format("Ticket for vehicle no : %s, slot : %s, from : %s, to : %s",
+        if(endTime == null){
+            return String.format("Entry Ticket for vehicle no : %s, slot : %s, from : %s",
+                    vehicle.getRegistrationNumber(),
+                    parkingSlot.getName(), startTime.toString());
+        }
+        return String.format("Exit Ticket for vehicle no : %s, slot : %s, from : %s, to : %s",
             vehicle.getRegistrationNumber(),
                 parkingSlot.getName(), startTime.toString(), endTime.toString());
     }

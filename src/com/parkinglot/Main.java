@@ -6,6 +6,8 @@ import com.parkinglot.strategy.parkingLotAssignmentStrategy.NearestFitAssignment
 import com.parkinglot.strategy.parkingLotAssignmentStrategy.ParkingLotAssignmentStrategy;
 import com.parkinglot.strategy.payment.CreditCardPayment;
 
+import java.util.Optional;
+
 public class Main {
     public static void main(String[] args) {
         FareStratergy fareStratergy = new RolloutFareStratergy();
@@ -44,7 +46,14 @@ public class Main {
 
 
         // SETUP DONE, APPLICATION UP for customers.
-        parkingLot.parkVehicle("RJ07-1234", VehicleType.CAR);
+        Optional<ParkingTicket> parkingTicket = parkingLot.parkVehicle("RJ07-1234", VehicleType.CAR);
+        System.out.println(parkingTicket);
+
+        Optional<ParkingTicket> parkingTicket2 = parkingLot.parkVehicle("RJ07-1211", VehicleType.TRUCK);
+        System.out.println(parkingTicket2);
+
+        Optional<ParkingTicket> parkingTicket3 = parkingLot.parkVehicle("RJ07-1212", VehicleType.TRUCK);
+        System.out.println(parkingTicket3);
 
         try {
             Thread.sleep(2000);

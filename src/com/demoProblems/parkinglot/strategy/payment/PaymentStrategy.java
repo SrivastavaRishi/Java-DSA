@@ -1,4 +1,4 @@
-package com.parkinglot.strategy.payment;
+package com.demoProblems.parkinglot.strategy.payment;
 
 public interface PaymentStrategy {
     boolean doPayment(double amount);

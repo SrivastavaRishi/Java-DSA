@@ -1,9 +1,6 @@
-package com.parkinglot.strategy.fareStrategy;
+package com.demoProblems.parkinglot.strategy.fareStrategy;
 
-import com.parkinglot.ParkingTicket;
-import com.parkinglot.VehicleType;
-
-import java.util.Date;
+import com.demoProblems.parkinglot.ParkingTicket;
 
 public class RolloutFareStratergy implements FareStratergy {
     private static final int timeMultiplier = 50; // Rs 50/hour

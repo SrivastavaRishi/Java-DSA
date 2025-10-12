@@ -1,4 +1,4 @@
-package com.parkinglot;
+package com.demoProblems.parkinglot;
 
 public class ParkingSlot {
     private final String name; // A-21 B-11

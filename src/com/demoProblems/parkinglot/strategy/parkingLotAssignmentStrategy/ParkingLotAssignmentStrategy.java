@@ -1,8 +1,8 @@
-package com.parkinglot.strategy.parkingLotAssignmentStrategy;
+package com.demoProblems.parkinglot.strategy.parkingLotAssignmentStrategy;
 
-import com.parkinglot.ParkingFloor;
-import com.parkinglot.ParkingSlot;
-import com.parkinglot.Vehicle;
+import com.demoProblems.parkinglot.ParkingFloor;
+import com.demoProblems.parkinglot.ParkingSlot;
+import com.demoProblems.parkinglot.Vehicle;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.parkinglot;
+package com.demoProblems.parkinglot;
 
 public enum VehicleType {
     CAR,

@@ -1,10 +1,10 @@
-package com.parkinglot;
+package com.demoProblems.parkinglot;
 
-import com.parkinglot.strategy.fareStrategy.FareStratergy;
-import com.parkinglot.strategy.fareStrategy.RolloutFareStratergy;
-import com.parkinglot.strategy.parkingLotAssignmentStrategy.NearestFitAssignmentStrategy;
-import com.parkinglot.strategy.parkingLotAssignmentStrategy.ParkingLotAssignmentStrategy;
-import com.parkinglot.strategy.payment.CreditCardPayment;
+import com.demoProblems.parkinglot.strategy.fareStrategy.FareStratergy;
+import com.demoProblems.parkinglot.strategy.fareStrategy.RolloutFareStratergy;
+import com.demoProblems.parkinglot.strategy.parkingLotAssignmentStrategy.NearestFitAssignmentStrategy;
+import com.demoProblems.parkinglot.strategy.parkingLotAssignmentStrategy.ParkingLotAssignmentStrategy;
+import com.demoProblems.parkinglot.strategy.payment.CreditCardPayment;
 
 import java.util.Optional;
 

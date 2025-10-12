@@ -1,4 +1,4 @@
-package com.parkinglot;
+package com.demoProblems.parkinglot;
 
 public class Vehicle {
     private final String registrationNumber;

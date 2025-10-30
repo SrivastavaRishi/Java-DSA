@@ -16,10 +16,10 @@ public class LoggerDemo {
         System.out.println("========== Logger System Demo ==========\n");
 
         // Demo 1: Basic logging
-        demo1_BasicLogging();
+//        demo1_BasicLogging();
 
-        // Demo 2: Multiple appenders
-//        demo2_MultipleAppenders();
+//         Demo 2: Multiple appenders
+        demo2_MultipleAppenders();
 
         // Demo 3: Log level filtering
 //        demo3_LogLevelFiltering();
@@ -51,22 +51,22 @@ public class LoggerDemo {
         System.out.println();
     }
 
-//    private static void demo2_MultipleAppenders() {
-//        System.out.println("--- Demo 2: Multiple Appenders (Console + File) ---");
-//
-//        Logger logger = LoggerFactory.getLogger("Demo2");
-//
-//        // Console with PlainText
-//        logger.addAppender(new ConsoleAppender(new PlainTextMessageFormatter()));
-//
-//        // File with JSON
-//        logger.addAppender(new FileAppender("logs/demo.log", new JsonMessageFormatter()));
-//
-//        logger.log(LogLevel.INFO, "This message goes to both console and file");
-//        logger.log(LogLevel.WARN, "Another message to multiple destinations");
-//
-//        System.out.println("Check logs/demo.log for JSON formatted logs\n");
-//    }
+    private static void demo2_MultipleAppenders() {
+        System.out.println("--- Demo 2: Multiple Appenders (Console + File) ---");
+
+        Logger logger = LoggerFactory.getLogger("Demo2");
+
+        // Console with PlainText
+        logger.addAppender(new ConsoleAppender(new PlainTextMessageFormatter()));
+
+        // File with JSON
+        logger.addAppender(new FileAppender("./src/com/demoProblems/logger/demo.log", new JsonMessageFormatter()));
+
+        logger.log(LogLevel.INFO, "This message goes to both console and file !!");
+        logger.log(LogLevel.WARN, "Another message to multiple destinations");
+
+        System.out.println("Check logs/demo.log for JSON formatted logs\n");
+    }
 //
 //    private static void demo3_LogLevelFiltering() {
 //        System.out.println("--- Demo 3: Log Level Filtering ---");

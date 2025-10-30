@@ -18,9 +18,9 @@ public class FileAppender implements ILogAppender {
     private final String filePath;
     private BufferedWriter writer;
 
-    public FileAppender(String filePath) {
+    public FileAppender(String filePath, IMessageFormatter messageFormatter) {
         this.filePath = filePath;
-        this.formatter = new PlainTextMessageFormatter();
+        this.formatter = messageFormatter;
 
         try {
             // Create parent directories if they don't exist

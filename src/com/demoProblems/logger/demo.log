@@ -1,0 +1,4 @@
+{"timestamp":1761855302489,"level":"INFO","thread":"main","class":"com.demoProblems.logger.LoggerDemo","method":"main","message":"This message goes to both console and file"}
+{"timestamp":1761855302490,"level":"WARN","thread":"main","class":"com.demoProblems.logger.LoggerDemo","method":"main","message":"Another message to multiple destinations"}
+{"timestamp":1761855331703,"level":"INFO","thread":"main","class":"com.demoProblems.logger.LoggerDemo","method":"main","message":"This message goes to both console and file !!"}
+{"timestamp":1761855331704,"level":"WARN","thread":"main","class":"com.demoProblems.logger.LoggerDemo","method":"main","message":"Another message to multiple destinations"}
